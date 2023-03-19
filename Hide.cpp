@@ -16,7 +16,7 @@ int N, K;
 
 void bfs() {
     while (!que.empty()) {
-        int first = que.front();//°¡Àå ¸ÕÀú µé¾î¿Â °ª º¹»ç
+        int first = que.front();//Â°Â¡Ã€Ã¥ Â¸Ã•Ã€Ãº ÂµÃ©Â¾Ã®Â¿Ã‚ Â°Âª ÂºÂ¹Â»Ã§
         que.pop();
         
         if (first == K) {
@@ -50,6 +50,7 @@ void bfs() {
         
     }
 }
+
 
 int main() {
     cin >> N >> K;
